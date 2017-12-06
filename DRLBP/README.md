@@ -20,8 +20,8 @@ Signal Processing (ICASSP’2013), pp. 2376-2380, May 2013, Vancouver, Canada.
 If you are using DRLBP in your work, kindly cite [1] - [2] in your publications.
 
 IMPORTANT NOTE
-The code is provided as it is. Inside, Piotr Dollar's modified toolbox which is used for 
-gradient computation is provided. This version is modified from Version 3.01. As 
+The code is provided as it is. Piotr Dollar's modified toolbox which is used for 
+gradient computation is provided (zip file). This version is modified from Version 3.01. As 
 of writing this txt, the current version of Dollar's toolbox is 3.25. If time permits, I
 will update the modified toolbox to the latest version of Piotr's Toolbox.
 
@@ -46,6 +46,8 @@ use.
 USAGE
  
 Please refer to the MATLAB script file, demo.m to view the procedures.
+
+I have provided the C/C++ files for computing the DRLBP features. The files will need to be compiled to mex in MATLAB to run with the demo script. Alternatively, you can use the pre-compiled binaries in the bin folder to run if you do not have a C++ compiler.
 
 Currently, only different circular radius of R is supported. The neighbourhood is strictly
 fixed to 8 as the codes are heavily optimized for this. Only colour images are supported. If
