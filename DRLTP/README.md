@@ -15,7 +15,7 @@ Object Recognition”, regular paper, IEEE Transactions on Image Processing, Acc
 
 If you are using DRLTP in your work, kindly cite [1] in your publications.
 
-===IMPORTANT NOTE========================================================================
+IMPORTANT NOTE
 The code is provided as it is. Inside, Piotr Dollar's modified toolbox which is used for 
 gradient computation is provided. This version is modified from Version 3.01. As 
 of writing this txt, the current version of Dollar's toolbox is 3.25. If time permits, I
@@ -25,7 +25,7 @@ If you find any bugs, please inform me and I will fix them.
 
 The codes work fine for Windows-based MATLAB. It has NOT been tested for Linux systems.
 
-===INSTALLATION==========================================================================
+INSTALLATION
 
 First, you will need to install the modified Piotr's MATLAB Toolbox. To do so, just do the 
 following:
@@ -39,7 +39,7 @@ following:
 Please install a C++ compiler (preferably Visual Studio) to compile the mex files for 
 use.
  
-===USAGE==================================================================================
+USAGE
  
 Please refer to the MATLAB script file, demo.m to view the procedures.
 
@@ -48,7 +48,7 @@ fixed to 8 as the codes are heavily optimized for this. Only colour images are s
 you are using a grayscale image, replicate the image to 3 channels before sending to the mex 
 function.
 
-===CHANGES FROM EARLIER VERSION==================================================================================
+CHANGES FROM EARLIER VERSION
 1) Added radius parameter as input for feature generation. Was omitted from earlier version.
 2) Added LTP threshold as input for feature generation. Now, user can input their own thresholds based on the data 
 they are working on. Previously, it was hard-coded in the mex file and users were not allowed to modify it.
